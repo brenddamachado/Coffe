@@ -100,6 +100,7 @@ span {
 }
 
 /*capsulas*/
+
 .tabCap {
     border-collapse: collapse;
     margin-top: 6px;
@@ -128,16 +129,17 @@ td {
     /* Cor de fundo para a classe linTH */
     vertical-align: middle;
     text-align: center;
+    
 }
 
 .colTH {
-    color: #FFFFFF;
-    background-color: #804040;
+    color: #FFFFFF; /* Cor de texto branca (#FFFFFF) */
+    background-color: #804040; /* Cor de fundo marrom (#804040) */
+    text-align: left; /* Alinhamento de texto à esquerda */
 }
 
-.preco {
-    color: #CC0000;
-}
+
+
 
 .imgcel {
     background-color: #FFFFFF;
