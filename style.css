@@ -82,7 +82,7 @@ h2 {
     border: 2px solid #402020;
     margin-top: 0;
     margin-bottom: 10px;
- 
+ text-align: left;
     
 
 
@@ -93,4 +93,30 @@ h2 {
     list-style-type: square;
     display: inline;
     margin-right: 10px;
+}
+span{
+    color: #CC0000;
+}
+
+/*capsulas*/
+.tabCap{
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 15px;
+    background-color: #EEDDCC;
+    font-family: Karla, Verdana, Ubuntu;
+}
+th{
+    border: 3px solid #888888; /* Borda sólida de 3px e cor #888888 */
+    padding: 6px 12px;
+}
+td{
+    border: 3px solid #000066; /* Borda sólida de 3px e cor #888888 */
+    padding: 6px 12px 6px 12px;
+}
+.linTH{
+    color: #FFFFFF; /* Cor de texto para a classe linTH */
+    background-color: #402020; /* Cor de fundo para a classe linTH */
+    vertical-align: middle; 
+    text-align: center;
 }
