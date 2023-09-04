@@ -1,0 +1,96 @@
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+nav {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+body {
+    background-color: #EEBB88;
+    color: #402020;
+    font-size: 16px;
+    font-family: "stoke", "Lucida Bright", "liberation";
+}
+
+a {
+    text-decoration: none;
+    color: #603030
+}
+
+a:visited {
+    color: #603030;
+    /* Define a cor de link visitado */
+}
+
+.menu {
+    line-height: 200%;
+}
+
+.ender {
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: " Karla", "Verdana", " Ubuntu";
+}
+
+.imgLogo {
+    border-bottom: 3px solid #402020;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+
+.apres {
+    text-align: center;
+    /* Alinha o texto centralizado */
+    font-size: 16px;
+    /* Define o tamanho da fonte para 16px */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    max-width: 400px;
+
+
+}
+
+.menu {
+    color: #332277;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: circle;
+}
+
+/* CAFETEIRAS CSS*/
+h2 {
+    text-align: center;
+}
+
+.listaMaq {
+    width: 340px;
+    color: #402020;
+    background-color: #EEDDCC;
+    padding: 10px 10px 10px 50px;
+    border: 2px solid #402020;
+    margin-top: 0;
+    margin-bottom: 10px;
+ 
+    
+
+
+}
+
+.lista {
+    color: #402020;
+    list-style-type: square;
+    display: inline;
+    margin-right: 10px;
+}
