@@ -9,38 +9,118 @@
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html>
 
-    <body>
-        <header>
-            <img class="imgLogo" src="/img/EspumaEraLeiTopo.png" alt="Espuma Era Lei Logo">
-            <address class="ender">
-                <p> Via Expressa, 126</p>
-                <p>Tel: (21) 91122-3344</p>
-                <p> contato@espumeralei.com.br</p>
-            </address>
-        </header>
-        <nav>
-            <ul class="menu">
-                <li><a href="EspumaEraLei.html" target="_blank"> Apresentação</a></li>
-                <li><a href="Cafeteiras.html" target="_blank"> Cafeteiras</a></li>
-                <li><a href="Capsulas.html" target="_blank"> Cápsulas</a></li>
-                <li><a href="Pedidos.html" target="_blank"> Pedidos</a></li>
-            </ul>
-        </nav>
-        <section>
+    <header>
+        <img class="imgLogo" src="/img/EspumaEraLeiTopo.png" alt="Espuma Era Lei Logo">
+        <address class="ender">
+            <p> Via Expressa, 126</p>
+            <p>Tel: (21) 91122-3344</p>
+            <p> contato@espumeralei.com.br</p>
+        </address>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="EspumaEraLei.html" target="_blank"> Apresentação</a></li>
+            <li><a href="Cafeteiras.html" target="_blank"> Cafeteiras</a></li>
+            <li><a href="Capsulas.html" target="_blank"> Cápsulas</a></li>
+            <li><a href="Pedidos.html" target="_blank"> Pedidos</a></li>
+        </ul>
+    </nav>
+    <section>
 
-            <div class="apres">
-                <img src="./img/EspumaEraLei.png" alt="Espuma Era Lei">
-                <p>
-                    para sua casa ter o melhor café expresso todo dia!
-                </p>
+        <form class="FormBox" action="proxima_pagina.html" method="get" target="_blank">
+            <fieldset>
+                <legend>Identificação</legend>
+
+                <div>
+                    <label>Nome:
+                        <input type="text">
+                        </select>
+
+                </div>
+
+                <div>
+                    <label> E-mail:
+                        <input type="email" name="" id="">
+                </div>
+
+
+
+                <div>
+                    <label class="endereco">Endereço:</label>
+
+                    <textarea class="inpEnder" id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                </div>
+
+                <fieldset>
+                    <legend>Genero</legend>
+                    <div>
+                        <label for="">
+                            FFF
+                        </label>
+                    </div>
+                </fieldset>
+
+
+                <div>
+                    <label>Telefone:</label>
+                    <input class="inpTelef" type="number" name="" id="">
+                </div>
+
+                <div>
+                    <label>Celular</label>
+                    <input class="inpTelef" type="number" name="" id="">
+                </div>
+
+                <fieldset>
+                    <legend>Nascimento</legend>
+
+                    <div>
+                        <input type="number" name="" id="" min="1" max="31"> /
+
+                        <input type="number" name="" id="" min="1" max="12"> /
+
+                        <input type="number" name="" id="" max="2023">
+                    </div>
+                </fieldset>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Pagamento</legend>
+                <fieldset class="npNCC">
+                    <legend>Cartão</legend>
+                    <label for="">Bandeira</label>
+                    <input type="radio" name="" id=""> Visa
+                    <input type="radio" name="" id=""> Master
+                    <input type="radio" name="" id=""> Elo
+
+                    <div><label for="">Validade:</label>
+                        <input type="number" name="" id="" min="1" max="31"> /
+                        <input type="number" name="" id="" min="1" max="12">
+                    </div>
+                    <div>
+                        <label for=""> Número:</label>
+                        <input type="number" name="" id="">
+                    </div>
+
+                </fieldset>
+                <div>
+                    <textarea class="LabBox" id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                </div>
+                <div>
+                    <label for=""> Valor Total: R$</label>
+                    <input type="number" name="" id="">
+                </div>
+            </fieldset>
+            <div class="btn">
+                <button>Enviar</button>
+                <button>Limpar</button>
             </div>
-        </section>
-    </body>
 
-    </html>
+        </form>
+    </section>
+
 </body>
 
 </html>

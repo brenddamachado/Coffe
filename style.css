@@ -155,10 +155,10 @@ td {
 /*PEDIDOS*/
 
 .FormBox {
-    width: 540px;
+    width: 500px;
     padding: 10px;
     margin-top: 10px;
-    text-align: center;
+    
     background-color: #EEDDCC;
     border: 3px solid #000055;
     font-size: 16px;
@@ -167,7 +167,7 @@ td {
 }
 
 .FSLinhaInteira {
-    width: 510px;
+    width: 470px;
     text-align: left;
 }
 
@@ -207,4 +207,43 @@ button {
 
 .total {
     margin-top: 10px;
+}
+.valor1{
+    width: 80px;
+    border-radius: 4px;
+    color: gray;
+    border: 2px solid gray;
+}
+
+.valor2{
+    width: 40px;
+    border-radius: 4px;
+    color: gray;
+    border: 2px solid gray;
+}
+
+
+/*NOVA PAGINA*/
+
+.btn{
+    text-align: right; /* Alinha o texto à direita */
+    margin: 20px 10px 0px 10px;
+}
+
+.inpTelef{
+    width: 90px;
+}
+
+.npNC{
+    width:  130px;
+}
+
+.inpEnder{
+    margin-top: 10px;
+    height: 60px;
+    width: 180px;
+}
+
+.endereco{
+    margin-bottom: 30pz;
 }
