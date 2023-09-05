@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Expresso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <body>
+        <header>
+            <img class="imgLogo" src="/img/EspumaEraLeiTopo.png" alt="Espuma Era Lei Logo">
+            <address class="ender">
+                <p> Via Expressa, 126</p>
+                <p>Tel: (21) 91122-3344</p>
+                <p> contato@espumeralei.com.br</p>
+            </address>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="EspumaEraLei.html" target="_blank"> Apresentação</a></li>
+                <li><a href="Cafeteiras.html" target="_blank"> Cafeteiras</a></li>
+                <li><a href="Capsulas.html" target="_blank"> Cápsulas</a></li>
+                <li><a href="Pedidos.html" target="_blank"> Pedidos</a></li>
+            </ul>
+        </nav>
+        <section>
+
+            <form class="FormBox">
+                <fieldset class="FSLinhaInteira">
+                    <legend>Seleção de Produtos e Lista de Compras</legend>
+
+                    <div>
+                        <label class="FSEsq " for="cars">Máquinas:
+                            <select id="cars" name="cars">
+                                <option selected disabled value="">-----</option>
+
+                                <optgroup label="Dolce Gusto">
+                                    <option>Mini ME</option>
+                                    <option>Genio S Plus</option>
+                                </optgroup>
+
+                                <optgroup label="Nespresso">
+                                    <option>Inissia</option>
+                                </optgroup>
+
+                                <optgroup label="Três Corações">
+                                    <option>LOV</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label   class="FSDir" for="fname">Qtd:
+                            <input  class="FSDir" type="number" class="numDD" name="campoNumerico" min="0" max="99">
+                        </label>
+
+                    </div>
+
+                    <div>
+                        <label class="FSEsq" for="cars">Cápsulas:
+                            <select id="cars" name="cars">
+                                <option selected disabled value="">-----</option>
+
+                                <optgroup label="Tipo Dolce Gusto">
+
+                                    <option>Dolce Gusto Espresso</option>
+                                    <option>Dolce Gusto Intenso</option>
+
+                                <optgroup label="Tipo Três Corações">
+
+                                    <option>Força / Vibrante </option>
+                                <optgroup label="Tipo Nespresso">
+
+                                    <option>Três Corações Intenso</option>
+                                    <option>Lor Forza</option>
+                        </label>
+                        </select>
+                        <label class="FSDir" for="fname">Qtd:
+                            <input type="number" class="numDD" name="campoNumerico" min="0" max="99">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label class="FSEsq" for="fname">Valor Unitário: R$
+                        <input type="number"  id="fname" name="fname">
+                        <button class="botoes " type="button">Incluir Produtos</button>
+                    </label>
+                </div>
+
+
+                    <div>
+                        <textarea class="LabBox" id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                    </div>
+
+                    <div class="">
+                        <label for="fname">Valor Total R$</label>
+                        <input type="number" id="fname" name="fname">
+                    </div>
+                </fieldset>
+                <div class="botoes">
+                    <button type="button">Continuar</button>
+                    <button type="button">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </body>
+
+    </html>
+</body>
+
+</html>

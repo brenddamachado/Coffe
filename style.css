@@ -129,13 +129,16 @@ td {
     /* Cor de fundo para a classe linTH */
     vertical-align: middle;
     text-align: center;
-    
+
 }
 
 .colTH {
-    color: #FFFFFF; /* Cor de texto branca (#FFFFFF) */
-    background-color: #804040; /* Cor de fundo marrom (#804040) */
-    text-align: left; /* Alinhamento de texto à esquerda */
+    color: #FFFFFF;
+    /* Cor de texto branca (#FFFFFF) */
+    background-color: #804040;
+    /* Cor de fundo marrom (#804040) */
+    text-align: left;
+    /* Alinhamento de texto à esquerda */
 }
 
 
@@ -147,4 +150,40 @@ td {
 
 .img {
     width: 60px;
+}
+
+/*PEDIDOS*/
+
+.FormBox {
+    width: 540px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #EEDDCC;
+    border: 3px solid #000055;
+    font-size: 16px;
+    font-family: 'Karla', 'Verdana', 'Ubuntu';
+
+}
+
+.FSLinhaInteira {
+    width: 510px;
+    text-align: left;
+}
+
+.FSEsq {
+    display: inline;
+    margin: auto;
+    float: left;
+}
+
+.FSDir{
+    display: inline;
+    margin: auto;
+
+}
+
+.botoes {
+text-align: right;
+margin: 20px 10px 0px 10px;
 }
