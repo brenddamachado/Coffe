@@ -53,11 +53,8 @@ a:visited {
 
 .apres {
     text-align: center;
-    /* Alinha o texto centralizado */
     font-size: 16px;
-    /* Define o tamanho da fonte para 16px */
     margin: 0 auto;
-    /* Centraliza horizontalmente */
     max-width: 400px;
 
 
@@ -84,9 +81,6 @@ h2 {
     margin-top: 0;
     margin-bottom: 10px;
     text-align: left;
-
-
-
 }
 
 .lista {
@@ -113,21 +107,17 @@ span {
 
 th {
     border: 3px solid #888888;
-    /* Borda sólida de 3px e cor #888888 */
     padding: 6px 12px 6px 12px;
 }
 
 td {
     border: 3px solid #000066;
-    /* Borda sólida de 3px e cor #888888 */
     padding: 6px 12px 6px 12px;
 }
 
 .linTH {
     color: #FFFFFF;
-    /* Cor de texto para a classe linTH */
     background-color: #402020;
-    /* Cor de fundo para a classe linTH */
     vertical-align: middle;
     text-align: center;
 
@@ -135,15 +125,9 @@ td {
 
 .colTH {
     color: #FFFFFF;
-    /* Cor de texto branca (#FFFFFF) */
     background-color: #804040;
-    /* Cor de fundo marrom (#804040) */
     text-align: left;
-    /* Alinhamento de texto à esquerda */
 }
-
-
-
 
 .imgcel {
     background-color: #FFFFFF;
@@ -154,7 +138,6 @@ td {
 }
 
 /*PEDIDOS*/
-
 .FormBox {
     width: 500px;
     padding: 10px;
@@ -164,7 +147,6 @@ td {
     border: 3px solid #000055;
     font-size: 16px;
     font-family: 'Karla', 'Verdana', 'Ubuntu';
-
 }
 
 .FSLinhaInteira {
@@ -178,18 +160,14 @@ td {
     float: left;
 }
 
-
-
 .botoes {
     text-align: right;
     margin: 20px 10px 0px 10px;
     border-radius: 3px;
-
 }
 
 button {
     color: gray;
-    /* Cor de fundo cinza */
     border: 2px solid gray;
     border-radius: 3px;
 }
@@ -204,7 +182,6 @@ button {
 }
 
 .valor {
-
     float: left;
 }
 
@@ -226,9 +203,7 @@ button {
     border: 2px solid gray;
 }
 
-
 /*NOVA PAGINA*/
-
 .btn {
     text-align: right;
     margin: 20px 10px 0px 10px;
