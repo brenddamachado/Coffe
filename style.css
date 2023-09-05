@@ -172,18 +172,22 @@ td {
 }
 
 .FSEsq {
-    display: inline;
-    margin: auto;
+    margin-top: 20px;
+    
     float: left;
 }
 
-.FSDir{
-    display: inline;
-    margin: auto;
 
-}
 
 .botoes {
 text-align: right;
 margin: 20px 10px 0px 10px;
+}
+
+.LabBox{
+    margin-top: 20px;
+}
+
+#cars{
+    width: 180px;
 }
