@@ -172,22 +172,39 @@ td {
 }
 
 .FSEsq {
-    margin-top: 20px;
-    
+    margin-top: 5px;
+
     float: left;
 }
 
 
 
 .botoes {
-text-align: right;
-margin: 20px 10px 0px 10px;
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+    border-radius: 3px;
+ 
 }
 
-.LabBox{
-    margin-top: 20px;
+button {
+    color: gray; /* Cor de fundo cinza */
+    border: 2px solid gray;
+    border-radius: 3px;
 }
 
-#cars{
+.LabBox {
+    margin-top: 10px;
+}
+
+#cars {
     width: 180px;
+}
+
+.valor {
+
+    float: left;
+}
+
+.total {
+    margin-top: 10px;
 }
