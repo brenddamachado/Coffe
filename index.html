@@ -89,31 +89,35 @@
 
 
             </fieldset>
-            <fieldset >
+            <fieldset class="fieldPG">
                 <legend>Pagamento</legend>
-                <fieldset class="listac">
-                    <legend>Cartão</legend>
-                    <label for="">Bandeira</label>
-                    <input type="radio" name="" id=""> Visa
-                    <input type="radio" name="" id=""> Master
-                    <input type="radio" name="" id=""> Elo
-
-                    <div><label for="">Validade:</label>
-                        <input type="number" name="" id="" min="1" max="31"> /
-                        <input type="number" name="" id="" min="1" max="12">
+                <div class="pggridUm">
+                    <fieldset class="listac">
+                        <legend>Cartão</legend>
+                        <div class="listBandeira">
+                            <label for="">Bandeira</label>
+                            <input type="radio" name="" id=""> Visa
+                            <input type="radio" name="" id=""> Master
+                            <input type="radio" name="" id=""> Elo
+                        </div>
+                        <div class="listValidade">
+                            <label for="">Validade:</label>
+                            <input type="number" name="" id="" min="1" max="31"> /
+                            <input type="number" name="" id="" min="1" max="12">
+                        </div>
+                        <div class="listNumero">
+                            <label for=""> Número:</label>
+                            <input type="number" name="" id="">
+                        </div>
+                    </fieldset>
+                    <div class="valorT">
+                        <label for=""> Valor Total: R$</label>
+                        <input class="inputValorT" type="number" name="" id="">
                     </div>
-                    <div>
-                        <label for=""> Número:</label>
-                        <input type="number" name="" id="">
-                    </div>
-
-                </fieldset>
-                <div>
-                    <textarea class="LabBox" id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
                 </div>
+
                 <div>
-                    <label for=""> Valor Total: R$</label>
-                    <input type="number" name="" id="">
+                    <textarea class="LabBox pglabbox" id="comentarios" name="comentarios" rows="15" cols="23"></textarea>
                 </div>
             </fieldset>
             <div class="btn">
