@@ -148,17 +148,29 @@ div.apres {
 }
 
 .tabCap .imgCel {
-    background-color:  #EEBB88;
+    background-color: #EEDDCC;
+ 
+}
+
+#imgDes {
+    padding-top: 20px;
+    text-align: center;
+}
+#imgDes{
+    width: 120px; /* Ajuste o tamanho desejado */
+    display: block;
+    margin: 0 auto;
 }
 
 
-.imgCel img {
-    width: 60px;
-    height: 60px;
+td {
+    width: 150px; /* Ajuste a largura desejada */
+}
+
+#qtdprcDes{
+    text-align: center;
    
-}
-.menuTab {
-    height: 52px;
+    
 }
 
 /***************************************
