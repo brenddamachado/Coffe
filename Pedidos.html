@@ -6,6 +6,7 @@
     <base target="_blank" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href='https://fonts.googleapis.com/css?family=Karla|Stoke' rel='stylesheet'>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -27,75 +28,53 @@
         </ul>
     </nav>
     <section>
-        <form class="FormBox" method="GET" action="ContinuacaoPedido.html">
-            <fieldset class="FSLinInteira">
-                <legend> Seleção de Produtos
-                    e Lista de Compras&nbsp;</legend>
-                <div class="LinhaForm">
-                    <span class="ColEsqSelProd">
-                        <label for="selCapsula" class="LabBoxSel">Máquinas: </label>
-                        <Select name="selMaquina" id="selCapsula">
-                            <option> ----- </option>
-                            <optgroup label="Dolce Gusto">
-                                <option>Mini ME</option>
-                                <option>Genio S Plus</option>
-                            </optgroup>
-                            <optgroup label="Nespresso">
-                                <option>Inissia</option>
-                            </optgroup>
-                            <optgroup label="Três Corações">
-                                <option>LOV</option>
-                            </optgroup>
-                        </select>
-                    </span>
-                    <span class="ColDir">
-                        <label class="LabBoxQtd" for="QtdMaq">Qtd: </label>
-                        <input type="text" name="QtdMaq" readonly id="QtdMaq" class="numDD" />
-                    </span>
-                </div>
-                <div class="LinhaForm">
-                    <span class="ColEsqSelProd">
-                        <label for="selCapsula" class="LabBoxSel">Cápsulas: </label>
-                        <Select name="selCapsula" id="selCapsula">
-                            <option> ----- </option>
-                            <optgroup label="Tipo Dolce Gusto">
-                                <option>Dolce Gusto Espresso</option>
-                                <option>Dolce GUsto Intenso</option>
-                            </optgroup>
-                            <optgroup label="Tipo Três Corações">
-                                <option>Força / Vibrante</option>
-                            </optgroup>
-                            <optgroup label="Tipo Nespresso">
-                                <option>Três Corações Intenso</option>
-                                <option>Lor Forza</option>
-                            </optgroup>
-                        </select></span>
-                    <span class="ColDir">
-                        <label class="LabBoxQtd" for="QtdCap">Qtd: </label>
-                        <input type="text" name="QtdCap" readonly id="QtdCap" class="numDD" />
-                    </span>
-                </div>
-                <div class="LinhaForm">
-                    <span class="ColEsqValUnit">
-                        <label class="LabBox" for="TxtValUnit">Valor Unitário: R$ </label>
-                        <input type="text" name="TxtValUnit" readonly id="TxtValUnit" class="InpBoxMedLeft" /></span>
-                    </span>
-                    <span class="ColDir">
-                        <input type="button" value="Incluir Produtos" />
-                    </span>
-                </div>
-                <div class="LinhaForm" id="boxPedidos">
-                    <textarea name="listaPedidos" readonly id="lisPedArea">
-        </textarea>
-                </div>
-                <label for="TxtTotal"><br />Valor Total R$
-                    <input type="text" name="TxtTotal" readonly id="TxtTotal" class="InpBoxMed" /></label>
-            </fieldset>
-            <div class="botoes">
-                <input type="submit" value="Continuar" />
-                <input type="reset" value="Limpar" />
-            </div>
-        </form>
+        <br />
+        <table class="tabCap">
+            <tr>
+                <th class="linTH" colspan="5">Cápsulas</th>
+            </tr>
+            <tr>
+                <th class="linTH">Máquina</th>
+                <th class="linTH">Tipo</th>
+                <th class="linTH">Descrição</th>
+                <th class="linTH">Quantidade</th>
+                <th class="linTH">Preço</th>
+            </tr>
+            <tr>
+                <th rowspan="2" class="colTH">Dolce Gusto</th>
+                <td><a href="javascript:Mostra(1);">Espresso</a></td>
+                <td class="imgCel" rowspan="5">
+                    <div id="titDes"></div>
+                    <img id="imgDes" src="img/vazio.jpg" />
+                    <div id="quantDes"></div>
+                    <div id="prcDes"></div>
+                </td>
+                <td rowspan="2" class="colTH" id="quantDolceGusto1"></td>
+                <td rowspan="2" class="colTH" id="precoDolceGusto1"></td>
+            </tr>
+            <tr>
+                <td><a href="javascript:Mostra(2);">Intenso</a></td>
+                <td id="quantDolceGusto2"></td>
+                <td id="precoDolceGusto2"></td>
+            </tr>
+            <tr>
+                <th class="colTH">Três Corações</th>
+                <td><a href="javascript:Mostra(3);">Forza/ Vibrante</a></td>
+                <td id="quantTresCoracoes3"></td>
+                <td id="precoTresCoracoes3"></td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="colTH">Nespresso</th>
+                <td><a href="javascript:Mostra(4);">Três Cor. Intenso</a></td>
+                <td id="quantNespresso4"></td>
+                <td id="precoNespresso4"></td>
+            </tr>
+            <tr>
+                <td><a href="javascript:Mostra(5);">Três Cor. Intenso</a></td>
+                <td id="quantNespresso5"></td>
+                <td id="precoNespresso5"></td>
+            </tr>
+        </table>
     </section>
 </body>
 

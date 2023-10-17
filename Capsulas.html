@@ -5,6 +5,7 @@
     <title>A Espuma era a Lei</title>
     <base target="_blank" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Karla|Stoke' rel='stylesheet'>
 </head>
 
@@ -30,55 +31,46 @@
         <br />
         <table class="tabCap">
             <tr>
-                <th class="linTH" colspan="5">
+                <th  class="linTH" colspan="5">
                     Cápsulas</th>
             </tr>
             <tr>
                 <th class="linTH">Máquina</th>
                 <th class="linTH">Tipo</th>
-                <th class="linTH">QTD</th>
-                <th class="linTH">Preço</th>
-                <th class="linTH">Imagem</th>
+                <th class="linTH">Descrição</th>
             </tr>
             <tr>
                 <th rowspan="2" class="colTH">
                     Dolce Gusto</th>
+                <td><a target="_self" href="javascript:Mostra(1);">
+                    Espresso</a></td>
+                <td class="imgCel" rowspan="5">
+                    <div id="titDes">
+                        <p>&nbsp;<br />&nbsp;</p>
+                    </div><img id="imgDes" src="img/vazio.jpg" />
+                    <div id="prcDes">&nbsp;</div>
                 </td>
-                <td>Espresso</td>
-                <td>10</td>
-                <td class="preco">R$ 18,00</td>
-                <td class="imgCel"><img src="img/CapDolceGusto_10_Espresso.jpg" /></td>
             </tr>
             <tr>
-                <td>Intenso</td>
-                <td>10</td>
-                <td class="preco">R$ 19,00</td>
-                <td class="imgCel"><img src="img/CapDolceGusto_10_Intenso.jpg" /></td>
+                <td><a target="_self" href="javascript:Mostra(2);">
+                    Intenso</a></td>
             </tr>
             <tr>
                 <th class="colTH">
                     Três Corações</th>
                 </td>
-                <td>Forza / Vibrante</td>
-                <td>30</td>
-                <td class="preco">R$ 44,00</td>
-                <td class="imgCel"><img src="img/CapTresCoracoes_30_ForzaVibrante.jpg" /></td>
+                <td> <a target="_self" href="javascript:Mostra(3);">Forza/ Vibrante</a> </td>
+
             </tr>
             <tr>
                 <th rowspan="2" class="colTH">
                     Nespresso</th>
-                </td>
-                <td>Três Cor. Intenso</td>
-                <td>10</td>
-                <td class="preco">R$ 20,00</td>
-                <td class="imgCel"><img src="img/CapTresCoracoesNespreso_10_Intenso.jpg" />
-                </td>
+                <td><a target="_self" href="javascript:Mostra(4);">
+                    Três Cor. Intenso</a></td>
             </tr>
             <tr>
-                <td>Lor Forza</td>
-                <td>10</td>
-                <td class="preco">R$ 21,00</td>
-                <td class="imgCel"><img src="img/CapLorNespreso_10_Forza.jpg" /></td>
+                <td><a target="_self" href="javascript:Mostra(5);">
+                    Três Cor. Intenso</a></td>
             </tr>
         </table>
     </section>
