@@ -1,8 +1,7 @@
- // Função para atualizar o campo de valor x quantidade quando uma opção é selecionada
- document.getElementById('selMaquina').addEventListener('change', function() {
-    // Obtém o valor selecionado
-    var selectedValue = this.value;
-
-    // Atualiza o campo de valor x quantidade
-    document.getElementById('TxtValUnit').value = 'R$' + selectedValue;
-  });
+// **** Passo 1 de 4 ****
+// Valor dos produtos
+var p1_valor    = 50.00;
+var p2_valor    = 100.00;
+var p3_valor    = 20.00;
+var p4_valor    = 55.00;
+var p5_valor    = 70.00;
